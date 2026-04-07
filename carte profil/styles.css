@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1d1f41;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Carte */
+.card {
+    background: rgb(243, 238, 174);
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 70px;
+    box-shadow: 0 4px 10px rgba(174, 219, 11, 0.856);
+}
+
+/* Image */
+.card img {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+/* Nom */
+.card h2 {
+    margin: 20px 0;
+}
+
+/* Titre */
+.title {
+    color: rgb(20, 4, 63);
+    font-size: 15px;
+}
+
+/* Infos (numéro + âge) */
+.info {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #121213cc;
+}
+
+/* Bouton */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #2c3e50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2276ca;
+}
