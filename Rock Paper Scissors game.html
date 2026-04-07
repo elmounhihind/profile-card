@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+
+
+
+  <link rel="stylesheet" href="Rock Paper Scissors game.css">
+  
+<body>
+
+<div class="buttons">
+  <button onclick="play('pierre')">
+    <img id="rockImg" src="rock.jpg" alt="Pierre">
+  </button>
+  <button onclick="play('papier')">
+    <img id="paperImg" src="paper.jpg" alt="Papier">
+  </button>
+  <button onclick="play('ciseaux')">
+    <img id="scissorsImg" src="scissors.jpg" alt="Ciseaux">
+  </button>
+</div>
+
+<div class="result">
+  👤 Joueur: <span id="playerChoice">-</span>
+  💻 Ordinateur: <span id="computerChoice">-</span>
+  <p id="message">Résultat...</p>
+</div>
+
+<div class="score">
+  ✅ Victoires: <span id="wins">0</span>
+  ❌ Défaites: <span id="losses">0</span>
+  🤝 Nuls: <span id="draws">0</span>
+</div>
+
+<button class="reset" onclick="resetGame()">🔄 Réinitialiser</button>
+
+<!-- sounds -->
+<audio id="winSound" src="win.mp3"></audio>
+<audio id="loseSound" src="lose.mp3"></audio>
+<audio id="drawSound" src="draw.mp3"></audio>
+
+<script src="Rock Paper Scissors game.js"></script>
+</body>
+</html>
